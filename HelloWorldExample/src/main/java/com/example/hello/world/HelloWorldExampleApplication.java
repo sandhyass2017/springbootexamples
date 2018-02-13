@@ -14,6 +14,7 @@ public class HelloWorldExampleApplication extends SpringBootServletInitializer {
     }
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(HelloWorldExampleApplication.class, args);
 	}
 }
