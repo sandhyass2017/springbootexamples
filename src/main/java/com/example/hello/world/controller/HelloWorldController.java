@@ -8,7 +8,7 @@ public class HelloWorldController {
 	
 	@RequestMapping("/hello")
 	public String display() {
-		return "HELLO-WORLD";
+		return "WELCOME TO OPENSHIFT";
 	}
 
 }
