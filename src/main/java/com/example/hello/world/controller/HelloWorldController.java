@@ -8,7 +8,7 @@ public class HelloWorldController {
 	
 	@RequestMapping("/hello")
 	public String display() {
-		return "WELCOME TO OPENSHIFT DEPLOYED FROM JENKINS";
+		return "WELCOME TO OPENSHIFT DEPLOYED FROM JENKINS USING WEBHOOK";
 	}
 
 }
